@@ -1,0 +1,15 @@
+Package: BIOL442
+Title: DDM to DD Coordinate Converter 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Aaron", "Uy", , "alu10@georgetown.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package serves to convert Degrees Decimel Minutes (DDM) coordinates to Decimel Degrees (DD) coordinates. Inputs are longitudes and latitudes in the form of lists or columns of a dataframe.  
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
