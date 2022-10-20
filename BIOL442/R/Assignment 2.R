@@ -9,6 +9,7 @@
 #' @examples 
 #' lat_long_conv 
 
+#This is my edit
 lat_long_conv <- function(input_latitude_column, input_longitude_column, flip_columns=TRUE) {
   
   input_longitude_column <- ((as.numeric(gsub("°.*", "", input_longitude_column))) + 
